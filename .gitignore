@@ -26,7 +26,7 @@ git.pub
 logs/
 *.log
 .metadata/
-node_moudules/*
+node_modules/
 lib/
 
 classes/
