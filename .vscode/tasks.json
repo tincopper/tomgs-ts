@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "typescript",
+			"tsconfig": "tsconfig.json",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build",
+			"label": "tsc: build - tsconfig.json",
+			//-p 指定目录；-w watch,检测文件改变自动编译
+			//"args": ["-p", ".","-w"],
+			//"command": "tsc",
+			//"isShellCommand": true,
+		}
+	]
+}
